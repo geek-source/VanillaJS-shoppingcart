@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=360, initial-scale=1">
+	<title>Shopping Cart</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+	<script src="https://kit.fontawesome.com/981794e91c.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	
+	<nav class=navbar >
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <h2>NEWS TODAY</h2>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fa fa-search"></i> 
+                </span>
+            </div>
+        </div>
+	</nav>
+
+        <header class="header">
+			<img src="img/logo.png" alt="Nexter logo" class="header__logo"> 
+			<h1 class="side-heading">NEWS</h1>
+            <p class="heading-1">The ultimate News Blog, Know Everything</p>
+            <button class="btn header__btn">View our properties</button>
+            <div class="header__seenon-text">Seen on</div>
+            <div class="header__seenon-logos">
+                <img src="img/logo-bbc.png" alt="Seen on logo 1">
+                <img src="img/logo-forbes.png" alt="Seen on logo 2">
+                <img src="img/logo-techcrunch.png" alt="Seen on logo 3">
+                <img src="img/logo-bi.png" alt="Seen on logo 4">
+            </div>
+		</header>
+		<div class="main-part">
+	<main class="main-container">
+        
+		<section class="section">
+			<h2 class="text-center">OUR PRODUCTS</h2>
+			<div class="products">
+				
+				<div class="product">
+					<img class="product__image" src="img/products/toi.jpg" alt="TOI">
+					<h2 class="product__name">TOI</h2>
+					<h3 class="product__price">6.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/th.jpg" alt="Hindu">
+					<h2 class="product__name">The Hindu</h2>
+					<h3 class="product__price">5.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/sk2.jpg" alt="Sk">
+					<h2 class="product__name">Sakshi</h2>
+					<h3 class="product__price">4.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/dc.jpg" alt="DC">
+					<h2 class="product__name">Deccan Chronicle</h2>
+					<h3 class="product__price">5.50</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/tkf.jpg" alt="The Tribune">
+					<h2 class="product__name">The Tribune News</h2>
+					<h3 class="product__price">6.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+				<div class="product">
+					<img class="product__image" src="img/products/st.jpg" alt="ET">
+					<h2 class="product__name">Economic Times</h2>
+					<h3 class="product__price">6.00</h3>
+					<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+				</div>
+			</div>
+		</section>
+	
+
+		<section class="section">
+			<button class="bttn">Cart
+				 <i class="fa fa-cart-plus"></i>
+			</button>
+			<div class="cart"></div>
+		</section>
+
+	</main>
+</div>
+	<footer class="footer">
+		<ul class="nav">
+				
+				<li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+			
+				<li class="nav__item"><a href="#" class="nav__link">Contact us</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Submit your ideas</a></li>
+				<li class="nav__item"><a href="#" class="nav__link">Come work with us</a></li>
+		</ul>
+		
+	</footer>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
